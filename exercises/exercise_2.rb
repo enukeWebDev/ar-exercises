@@ -7,10 +7,10 @@ puts "----------"
 # Your code goes here ...
 
 @store1 = Store.find(1)
-puts "I'm the store with id #1 - #{@store1.name}."
+puts "The store with id #1: #{@store1.name}"
 
 @store2 = Store.find(2)
-puts "I'm the store with id #2 - #{@store2.name}."
+puts "The store with id #2: #{@store2.name}"
 
 @store1.update(id: 1)
 @store1.update(name: "Saskatoon")
