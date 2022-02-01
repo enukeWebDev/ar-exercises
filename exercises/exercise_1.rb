@@ -29,3 +29,4 @@ Store.create(
 )
 
 puts "There are #{Store.count} stores in total."
+
