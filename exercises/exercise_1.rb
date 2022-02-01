@@ -12,8 +12,6 @@ Store.create(
   womens_apparel: true
 )
 
-puts "Running"
-
 Store.create(
   name: "Richmond",
   annual_revenue: 1260000,
